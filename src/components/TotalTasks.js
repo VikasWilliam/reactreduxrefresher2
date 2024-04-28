@@ -1,5 +1,5 @@
 import React from "react";
-import { UseDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 const TotalTask=()=>{
     const tasks=useSelector((state)=>state.tasks);
